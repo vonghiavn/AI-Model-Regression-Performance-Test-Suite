@@ -1,0 +1,38 @@
+{
+  "test_name": "bert",
+  "device": "cpu",
+  "status": "FAIL",
+  "metrics": {
+    "latency_ms": 40.01,
+    "fps": 24.99,
+    "gpu_mem_mb": 0,
+    "cpu_mem_mb": 634.99
+  },
+  "regressions": [
+    {
+      "metric": "latency_ms",
+      "baseline": 35.0,
+      "current": 40.01,
+      "delta_percent": 14.31
+    },
+    {
+      "metric": "fps",
+      "baseline": 28.0,
+      "current": 24.99,
+      "delta_percent": -10.75
+    },
+    {
+      "metric": "gpu_mem_mb",
+      "baseline": 2600,
+      "current": 0,
+      "delta_percent": -100.0
+    },
+    {
+      "metric": "cpu_mem_mb",
+      "baseline": 900,
+      "current": 634.99,
+      "delta_percent": -29.45
+    }
+  ],
+  "timestamp": "2026-01-11T06:25:17.695644"
+}
